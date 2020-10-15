@@ -6,10 +6,10 @@ class Triangle(object):
 
     number_of_sides = 3
     def check_angles(self):
-            if (self.angle1 + self.angle2 + self.angle3 == 180):
-                return True
-            else:
-                return False
+        if (self.angle1 + self.angle2 + self.angle3 == 180):
+            return True
+        else:
+            return False
 
 my_triangle = Triangle(90, 30, 60)
 
