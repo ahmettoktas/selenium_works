@@ -1,6 +1,6 @@
 overtime = 40
 def computepay(hours, rate):
-    if (hours >= overtime):
+    if hours >= overtime:
         return (hours * rate) + ((hours-overtime) * (rate * 0.5))
     else:
         return (hours * rate)
